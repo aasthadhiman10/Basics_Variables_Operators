@@ -1,49 +1,34 @@
-# Java Journey - Day 2: Core Foundations
+# ☕ Java Fundamentals & Logic Building
 
-Welcome to Day 2 of my Java learning journey! Today, I focused on building a solid foundation in Java setup, standard input/output operations, escape characters, working with data types, variables, and utilizing the `Scanner` class for interactive calculations.
+Welcome to my Java problem-solving repository! This project is dedicated to mastering the core fundamentals of the Java programming language, understanding memory allocation, and developing strong algorithmic thinking from scratch.
+
+Here, I document my daily coding progress, starting from basic syntax controls to variables, data types, and logical console outputs.
 
 ---
 
-## 📁 Project Directory Structure
-All programs developed today are well-organized inside the topic-specific sub-folder:
-```text
-Java_Fundamentals/
-└── Basics_Variables_Operators/
-    ├── Basic_Pattern_Problem.java
-    ├── Output_Patterns.java
-    ├── Sum_Program.java
-    └── Variables_Datatypes.java
-    💻 Topics Covered & Code Breakdown
-    
-1. Basic Pattern Printing (Basic_Pattern_Problem.java)
-Concept: Understanding System.out.println() behavior and sequential execution.
+## 🚀 Solved Problems Checklist
 
-Implementation: Printed a simple star (*) pyramid pattern line-by-line using standard output streams to understand structural text alignment on the console.
+Inside this directory, you will find clean, well-commented Java implementations for the following structural concepts:
 
-2. Output & Newline Formatting (Output_Patterns.java)
-Concept: Working with escape sequences like backslash-n (\n) within string literals.
+- [x] **Variables & Datatypes Handling (`Variables_Datatypes.java`):** Demonstrates declaration, initialization, and core memory handling using integer variables for simple addition and multiplication operations.
+- [x] **Dynamic User Input (`Sum_Program.java`):** Explores the implementation of the `java.util.Scanner` class to read dynamic integer values natively from the terminal.
+- [x] **Output & Newline Formatting (`Output_Patterns.java`):** Utilizes standard output streams along with escape sequences like `\n` to construct formatted multi-line string text blocks efficiently.
+- [x] **Basic Pattern Printing (`Basic_Pattern_Problem.java`):** A fundamental logical code building exercise executing custom sequential star (`*`) pyramid matrix configurations using sequential output strings.
 
-Implementation: Explored how to print multi-line text blocks efficiently within a single System.out.print() statement using \n to break lines manually.
+---
 
-3. Dynamic User Input (Sum_Program.java)
-Concept: Utilizing the java.util.Scanner package to capture real-time user arguments.
+## 🛠️ Tech Stack & Concepts Covered
 
-Implementation: Built an interactive program that dynamically reads two integer values (a and b) from the terminal via sc.nextInt(), performs an addition arithmetic operation, and displays the final dynamic sum.
+* **Language:** Java (JDK 17+)
+* **Concepts:** * Scanner Class for capturing dynamic terminal entries.
+  * Data Type Manipulations (`int` primitive type management).
+  * Arithmetic Expression Operators (`+`, `*`).
+  * Basic String Escaping mechanics (`\n`).
+* **Tools:** VS Code, Git & GitHub.
 
-4. Variables & Arithmetic Operators (Variables_Datatypes.java)
-Concept: Memory allocation using identifiers, declaring primitive variables, and using arithmetic symbols (+, *).
+---
 
-Implementation: Practiced manual value assignment to track distinct operations like basic addition and multiplication (a * b), along with proper code commenting practices.
+## 📈 Next Milestones
 
-🚀 Milestone (Next Steps)
-Tomorrow, I will be advancing into Conditional Statements and control flow structures to add logical decision-making capabilities to my programs.
-
-Topics to cover tomorrow:
-
-if-else statement logic
-
-else-if ladders for multi-condition handling
-
-switch cases for optimized branching
-
-break keyword control statement mechanics
+- [ ] Conditional Statements (`if-else` branching control structures & boundary checks).
+- [ ] Loops and Multi-dimensional Advanced Iteration Patterns.
